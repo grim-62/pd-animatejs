@@ -6,20 +6,6 @@ A JavaScript library for web effects , components and 3D features.
 
 pd-aniamte.js is designed to make it easy for developers to incorporate cool visual effects into their web applications without the need for complex and time-consuming coding. The library leverages the power of Three.js to create stunning 3D effects and animations, and also provides simpler 2D effects for added versatility.
 
-## Installation
-
-```bash
-npm install pd-animate
-```
-
-## Usage
-
-Import the library:
-
-```javascript
-import PD from 'pd-animate';
-```
-
 ## Examples
 
 Check out the examples in the `examples/` directory.
@@ -29,11 +15,9 @@ Check out the examples in the `examples/` directory.
 
 - [pd-Animate.js](#pd-animatejs)
   - [Introduction](#introduction)
-  - [Installation](#installation)
-  - [Usage](#usage)
   - [Examples](#examples)
   - [Table of Contents](#table-of-contents)
-  - [Installation](#installation-1)
+  - [Installation](#installation)
   - [Getting Started](#getting-started)
     - [Required Libraries](#required-libraries)
   - [Cool Effects](#cool-effects)
@@ -66,6 +50,10 @@ Check out the examples in the `examples/` directory.
 
 To use pd-aniamte.js in your project, you can include it in your HTML file via a CDN or import it in js by using node.
 
+`Currently facing issue in import Module and node, use CDN for batter results`
+
+` working on resolving npm version module import bug `
+
 When using node or browserify install
 
 ```bash
@@ -90,7 +78,9 @@ Alternatively use the standalone version found in ./dist locally
 <script type="text/javascript" src="pd-animate.min.css"></script>
 ```
 
- or use CDN version any one **only** `CSS`.
+`just add two script and enjoy.`
+
+ or use CDN version  `CSS`.
 
 ```html
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pd-animate/dist/pd-animate.min.css" /><!-- Recommended -->
