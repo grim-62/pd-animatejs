@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: "Gilroy";
+  text-rendering: geometricPrecision;
+  font-synthesis: weight;
+  overflow: hidden;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  /* background-color: red; */
+  padding-bottom: 0vh;
+}
+
+
+
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+
+#page-1 {
+  width: 100vw;
+  display: flex;
+}
+
+
+#centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: cover;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+}

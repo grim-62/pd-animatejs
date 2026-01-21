@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Pd Library</title>
+</head>
+<body>
+    <h1>Testing Pd Library</h1>
+    <script src="../dist/pd-animate.min.js"></script>
+    <script>
+        console.log('Pd object:', window.Pd);
+        console.log('Pd.imageEffect:', typeof window.Pd?.imageEffect);
+        if (window.Pd) {
+            console.log('Library loaded successfully!');
+        } else {
+            console.log('Library not loaded');
+        }
+    </script>
+</body>
+</html>
